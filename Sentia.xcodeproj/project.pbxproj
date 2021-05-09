@@ -105,14 +105,6 @@
 			path = DetailVC;
 			sourceTree = "<group>";
 		};
-		3425E3BE264827FF00B5C990 /* Additional */ = {
-			isa = PBXGroup;
-			children = (
-				3453C969264558220062692D /* Additional.swift */,
-			);
-			path = Additional;
-			sourceTree = "<group>";
-		};
 		3453C8FF26454D4C0062692D = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +137,6 @@
 				3453C963264557280062692D /* HttpClient */,
 				3453C97126455CE80062692D /* CleanData */,
 				3453C98026456A430062692D /* Extensions */,
-				3425E3BE264827FF00B5C990 /* Additional */,
 				3453C91126454D4C0062692D /* Main.storyboard */,
 				3453C91726454D4F0062692D /* Assets.xcassets */,
 				3453C91926454D4F0062692D /* LaunchScreen.storyboard */,
@@ -220,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				3453C98126456A4F0062692D /* Extensions.swift */,
+				3453C969264558220062692D /* Additional.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";

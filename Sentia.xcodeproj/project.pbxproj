@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3425E39B2647E50800B5C990 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E39A2647E50800B5C990 /* DetailVC.swift */; };
 		3453C90C26454D4C0062692D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C90B26454D4C0062692D /* AppDelegate.swift */; };
 		3453C90E26454D4C0062692D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C90D26454D4C0062692D /* SceneDelegate.swift */; };
-		3453C91026454D4C0062692D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C90F26454D4C0062692D /* ViewController.swift */; };
 		3453C91326454D4C0062692D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453C91126454D4C0062692D /* Main.storyboard */; };
 		3453C91626454D4C0062692D /* Sentia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3453C91426454D4C0062692D /* Sentia.xcdatamodeld */; };
 		3453C91826454D4F0062692D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3453C91726454D4F0062692D /* Assets.xcassets */; };
 		3453C91B26454D4F0062692D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453C91926454D4F0062692D /* LaunchScreen.storyboard */; };
 		3453C92626454D4F0062692D /* SentiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C92526454D4F0062692D /* SentiaTests.swift */; };
 		3453C93126454D4F0062692D /* SentiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C93026454D4F0062692D /* SentiaUITests.swift */; };
+		3453C945264551CD0062692D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C944264551CD0062692D /* Home.swift */; };
+		3453C94E264553330062692D /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C94C264553330062692D /* HomeCell.swift */; };
+		3453C94F264553330062692D /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3453C94D264553330062692D /* HomeCell.xib */; };
+		3453C957264554A60062692D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C956264554A60062692D /* Model.swift */; };
+		3453C95C264554BC0062692D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C95B264554BC0062692D /* ViewModel.swift */; };
+		3453C965264557350062692D /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C964264557350062692D /* HttpClient.swift */; };
+		3453C96A264558220062692D /* Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C969264558220062692D /* Additional.swift */; };
+		3453C97326455CF60062692D /* CleanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C97226455CF60062692D /* CleanData.swift */; };
+		3453C98226456A4F0062692D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C98126456A4F0062692D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3425E39A2647E50800B5C990 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		3425E3AB2647E9BD00B5C990 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3453C90826454D4C0062692D /* Sentia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3453C90B26454D4C0062692D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3453C90D26454D4C0062692D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3453C90F26454D4C0062692D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3453C91226454D4C0062692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3453C91526454D4C0062692D /* Sentia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sentia.xcdatamodel; sourceTree = "<group>"; };
 		3453C91726454D4F0062692D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,15 @@
 		3453C92C26454D4F0062692D /* SentiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3453C93026454D4F0062692D /* SentiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiaUITests.swift; sourceTree = "<group>"; };
 		3453C93226454D4F0062692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3453C944264551CD0062692D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3453C94C264553330062692D /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		3453C94D264553330062692D /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		3453C956264554A60062692D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3453C95B264554BC0062692D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3453C964264557350062692D /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		3453C969264558220062692D /* Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additional.swift; sourceTree = "<group>"; };
+		3453C97226455CF60062692D /* CleanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanData.swift; sourceTree = "<group>"; };
+		3453C98126456A4F0062692D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +97,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3425E3992647E4E300B5C990 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				3425E39A2647E50800B5C990 /* DetailVC.swift */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		3425E3BE264827FF00B5C990 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				3453C969264558220062692D /* Additional.swift */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
 		3453C8FF26454D4C0062692D = {
 			isa = PBXGroup;
 			children = (
+				3425E3AB2647E9BD00B5C990 /* README.md */,
 				3453C90A26454D4C0062692D /* Sentia */,
 				3453C92426454D4F0062692D /* SentiaTests */,
 				3453C92F26454D4F0062692D /* SentiaUITests */,
@@ -103,7 +139,13 @@
 			children = (
 				3453C90B26454D4C0062692D /* AppDelegate.swift */,
 				3453C90D26454D4C0062692D /* SceneDelegate.swift */,
-				3453C90F26454D4C0062692D /* ViewController.swift */,
+				3453C961264554DF0062692D /* Home */,
+				3425E3992647E4E300B5C990 /* DetailVC */,
+				3453C960264554CD0062692D /* DataModels */,
+				3453C963264557280062692D /* HttpClient */,
+				3453C97126455CE80062692D /* CleanData */,
+				3453C98026456A430062692D /* Extensions */,
+				3425E3BE264827FF00B5C990 /* Additional */,
 				3453C91126454D4C0062692D /* Main.storyboard */,
 				3453C91726454D4F0062692D /* Assets.xcassets */,
 				3453C91926454D4F0062692D /* LaunchScreen.storyboard */,
@@ -129,6 +171,57 @@
 				3453C93226454D4F0062692D /* Info.plist */,
 			);
 			path = SentiaUITests;
+			sourceTree = "<group>";
+		};
+		3453C960264554CD0062692D /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				3453C956264554A60062692D /* Model.swift */,
+				3453C95B264554BC0062692D /* ViewModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		3453C961264554DF0062692D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3453C944264551CD0062692D /* Home.swift */,
+				3453C962264554F00062692D /* HomeCell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3453C962264554F00062692D /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				3453C94C264553330062692D /* HomeCell.swift */,
+				3453C94D264553330062692D /* HomeCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		3453C963264557280062692D /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				3453C964264557350062692D /* HttpClient.swift */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		3453C97126455CE80062692D /* CleanData */ = {
+			isa = PBXGroup;
+			children = (
+				3453C97226455CF60062692D /* CleanData.swift */,
+			);
+			path = CleanData;
+			sourceTree = "<group>";
+		};
+		3453C98026456A430062692D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3453C98126456A4F0062692D /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +329,7 @@
 			files = (
 				3453C91B26454D4F0062692D /* LaunchScreen.storyboard in Resources */,
 				3453C91826454D4F0062692D /* Assets.xcassets in Resources */,
+				3453C94F264553330062692D /* HomeCell.xib in Resources */,
 				3453C91326454D4C0062692D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +355,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3453C91026454D4C0062692D /* ViewController.swift in Sources */,
 				3453C90C26454D4C0062692D /* AppDelegate.swift in Sources */,
+				3453C945264551CD0062692D /* Home.swift in Sources */,
+				3453C965264557350062692D /* HttpClient.swift in Sources */,
 				3453C90E26454D4C0062692D /* SceneDelegate.swift in Sources */,
+				3453C957264554A60062692D /* Model.swift in Sources */,
+				3425E39B2647E50800B5C990 /* DetailVC.swift in Sources */,
 				3453C91626454D4C0062692D /* Sentia.xcdatamodeld in Sources */,
+				3453C96A264558220062692D /* Additional.swift in Sources */,
+				3453C97326455CF60062692D /* CleanData.swift in Sources */,
+				3453C94E264553330062692D /* HomeCell.swift in Sources */,
+				3453C98226456A4F0062692D /* Extensions.swift in Sources */,
+				3453C95C264554BC0062692D /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
